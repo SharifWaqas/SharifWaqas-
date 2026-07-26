@@ -10,8 +10,7 @@
 
 Focused on backend engineering, distributed systems, and AI-powered applications.
 
-I'm Sharif Waqas, a Computer Science & Mathematics student focused on backend engineering, distributed systems, and AI-powered applications.
-
+I'm Sharif Waqas, a Computer Science & Mathematics student building production-ready backend systems and AI-powered applications.
 
 ## About
 
