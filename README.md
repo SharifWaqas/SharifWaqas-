@@ -35,24 +35,52 @@ Whether it's designing authentication systems, processing thousands of log event
 ## 🚀 Featured Systems
 Production-ready systems focused on backend engineering, distributed architecture, and AI-powered applications.
 
-### 🛡️ SafeStep
+## 🛡️ SafeStep
 
-AI-powered digital safety platform designed to help older adults recognize online scams, understand suspicious messages, and navigate the digital world safely.
+> AI-powered digital safety platform designed to help older adults recognize online scams, understand suspicious content, and confidently navigate the digital world.
 
-**Highlights**
+SafeStep combines modern AI with accessible design to analyze screenshots, emails, text messages, and websites, providing clear explanations, risk assessments, and actionable guidance instead of confusing technical jargon.
+
+### 🚧 Project Status
+
+**Overall Progress**
+
+```
+████████░░ 80%
+```
+
+| Component | Progress |
+|-----------|----------|
+| Backend Architecture | ██████████ 100% |
+| Authentication & Sessions | ██████████ 100% |
+| Database Design | ██████████ 100% |
+| File Upload Service | ██████████ 100% |
+| Repository & Service Layer | ██████████ 100% |
+| AI Analysis Engine | ███████░░░ 70% |
+| Frontend | ████░░░░░░ 40% |
+| Deployment | ██░░░░░░░░ 20% |
+| Testing | ███░░░░░░░ 30% |
+
+### ✨ Engineering Highlights
 
 - AI-powered screenshot analysis
-- Authentication & session management
-- Secure file uploads
-- PostgreSQL
-- FastAPI
-- OpenAI Vision
+- JWT authentication with secure refresh token sessions
+- Secure file upload and storage pipeline
+- Modular Repository & Service Layer architecture
+- PostgreSQL with SQLAlchemy ORM
+- OpenAI Vision integration
+- Risk scoring and personalized guidance generation
+- Accessibility-focused design for older adults
 
-**Status**
+### 🛠️ Tech Stack
 
-🚧 Active Development
+`Python` • `FastAPI` • `PostgreSQL` • `SQLAlchemy` • `Docker` • `OpenAI API`
 
-🔗 **[View SafeStep Repository →](https://github.com/SharifWaqas/safestep)**
+### 🎯 Why I Built It
+
+SafeStep was inspired by the growing number of online scams targeting older adults. Rather than simply detecting scams, the platform focuses on helping users understand **why** something is suspicious, improving digital literacy while providing reassurance and practical guidance.
+
+🔗 **[Explore the Repository →](https://github.com/SharifWaqas/safestep)**
 
 
 ### 📊 Log Analytics Engine
