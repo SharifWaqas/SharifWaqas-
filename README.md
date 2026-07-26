@@ -4,6 +4,7 @@
 
 <br>
 
+---
 
 # Building software that scales.
 
@@ -11,24 +12,24 @@ Backend systems, distributed architecture, and AI-powered applications.
 
 I'm Sharif Waqas, a backend-focused software engineer building production-ready systems while studying Computer Science & Mathematics at the University of Southern Mississippi.
 
+---
+
 ## About
 
-I enjoy building backend systems that solve real-world problems.
+I enjoy building production-ready backend systems with a focus on scalability, maintainability, and thoughtful architecture.
 
-My interests lie at the intersection of backend engineering, distributed systems, and AI applications. I enjoy designing reliable APIs, scalable architectures, authentication systems, and intelligent software that remains maintainable as it grows.
+Recently I've been exploring authentication systems, background workers, distributed processing, AI-powered applications, and high-throughput backend services through hands-on projects.
 
-Every project I build is an opportunity to improve both my engineering skills and my understanding of production software.
+---
 
 ## Engineering Philosophy
 
-I believe great software is built deliberately.
+> Reliability before cleverness.
 
-• Reliability before cleverness
+> Simple systems scale.
 
-• Simple systems scale
+> Measure before optimizing.
 
-• Measure before optimizing
+> Build for maintainability.
 
-• Build for maintainability
-
-• Learn continuously by building
+> Learn continuously by building.---
