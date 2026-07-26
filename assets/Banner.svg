@@ -1,0 +1,108 @@
+<svg width="1440" height="420" viewBox="0 0 1440 420" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Sharif Waqas — backend systems, AI infrastructure</title>
+<defs>
+  <style>text{font-family:-apple-system,"Inter","Segoe UI","Helvetica Neue",Arial,sans-serif;}</style>
+</defs>
+
+<rect x="0" y="0" width="1440" height="420" fill="#08090A"/>
+
+<!-- blueprint construction grid, faintest layer -->
+<g stroke="#5E6AD2" stroke-width="0.4" opacity="0.035">
+  <line x1="800" y1="40" x2="800" y2="380"/>
+  <line x1="880" y1="40" x2="880" y2="380"/>
+  <line x1="960" y1="40" x2="960" y2="380"/>
+  <line x1="1040" y1="40" x2="1040" y2="380"/>
+  <line x1="1120" y1="40" x2="1120" y2="380"/>
+  <line x1="1200" y1="40" x2="1200" y2="380"/>
+  <line x1="1280" y1="40" x2="1280" y2="380"/>
+  <line x1="1360" y1="40" x2="1360" y2="380"/>
+  <line x1="780" y1="70" x2="1400" y2="70"/>
+  <line x1="780" y1="150" x2="1400" y2="150"/>
+  <line x1="780" y1="230" x2="1400" y2="230"/>
+  <line x1="780" y1="310" x2="1400" y2="310"/>
+</g>
+<g stroke="#5E6AD2" stroke-width="0.4" opacity="0.045">
+  <line x1="780" y1="60" x2="1400" y2="340"/>
+  <line x1="780" y1="340" x2="1400" y2="60"/>
+</g>
+
+<!-- tier 1: origin -->
+<circle cx="850" cy="200" r="2.5" fill="#8B7CF6" opacity="0.13"/>
+
+<!-- origin diverging to tier 2 (distributed services) -->
+<g stroke="#5E6AD2" stroke-width="0.6" opacity="0.11">
+  <line x1="853" y1="200" x2="990" y2="120"/>
+  <line x1="853" y1="200" x2="990" y2="160"/>
+  <line x1="853" y1="200" x2="990" y2="200"/>
+  <line x1="853" y1="200" x2="990" y2="240"/>
+  <line x1="853" y1="200" x2="990" y2="280"/>
+</g>
+<g fill="#8B7CF6" opacity="0.13">
+  <circle cx="992" cy="120" r="2.2"/>
+  <circle cx="992" cy="160" r="3.4"/>
+  <circle cx="992" cy="200" r="2.6"/>
+  <circle cx="992" cy="240" r="3.8"/>
+  <circle cx="992" cy="280" r="2.2"/>
+</g>
+
+<!-- tier 2 converging to tier 3 (aggregation) -->
+<g stroke="#5E6AD2" stroke-width="0.6" opacity="0.11">
+  <path d="M995,120 C1060,130 1090,160 1130,175" fill="none"/>
+  <path d="M995,160 C1050,170 1085,180 1130,185" fill="none"/>
+  <path d="M995,200 C1050,195 1085,192 1130,192" fill="none"/>
+  <path d="M995,240 C1050,225 1085,210 1130,198" fill="none"/>
+  <path d="M995,280 C1060,255 1090,220 1130,205" fill="none"/>
+</g>
+<g fill="#8B7CF6" opacity="0.15">
+  <circle cx="1132" cy="176" r="3"/>
+  <circle cx="1132" cy="192" r="4.2"/>
+  <circle cx="1132" cy="206" r="3"/>
+</g>
+
+<!-- tier 3 converging to storage cluster -->
+<g stroke="#5E6AD2" stroke-width="0.6" opacity="0.11">
+  <line x1="1136" y1="176" x2="1230" y2="188"/>
+  <line x1="1136" y1="192" x2="1230" y2="190"/>
+  <line x1="1136" y1="206" x2="1230" y2="192"/>
+</g>
+
+<!-- storage, abstracted as concentric circles rather than an icon -->
+<g stroke="#8B7CF6" fill="none" opacity="0.13">
+  <circle cx="1232" cy="190" r="16" stroke-width="0.6"/>
+  <circle cx="1232" cy="190" r="10" stroke-width="0.6"/>
+  <circle cx="1232" cy="190" r="4" stroke-width="0.8"/>
+</g>
+
+<!-- faint branch outward, observability scatter -->
+<line x1="1246" y1="200" x2="1320" y2="270" stroke="#5E6AD2" stroke-width="0.5" opacity="0.07"/>
+<g fill="#8B7CF6">
+  <circle cx="1324" cy="268" r="1.4" opacity="0.11"/>
+  <circle cx="1338" cy="278" r="1.4" opacity="0.17"/>
+  <circle cx="1352" cy="266" r="1.4" opacity="0.11"/>
+  <circle cx="1330" cy="290" r="1.4" opacity="0.11"/>
+  <circle cx="1346" cy="296" r="1.4" opacity="0.17"/>
+  <circle cx="1360" cy="284" r="1.4" opacity="0.11"/>
+  <circle cx="1366" cy="302" r="1.4" opacity="0.11"/>
+</g>
+
+<text x="80" y="106" font-size="13" font-weight="600" letter-spacing="2.5" fill="#8B7CF6">BACKEND SYSTEMS · AI INFRASTRUCTURE</text>
+
+<text x="80" y="176" font-size="54" font-weight="600" letter-spacing="-0.5" fill="#F7F8F8">Sharif Waqas<tspan fill="#5E6AD2">.</tspan></text>
+
+<text font-size="17" font-weight="400" fill="#8A8F98">
+  <tspan x="80" y="222">Engineering reliable backend systems where performance</tspan>
+  <tspan x="80" y="248">meets simplicity.</tspan>
+</text>
+
+<line x1="80" y1="300" x2="1360" y2="300" stroke="#17181C" stroke-width="1"/>
+
+<g font-size="14" font-weight="500" letter-spacing="0.2" fill="#C4C7CF">
+  <text x="80" y="336">Distributed Systems</text>
+  <text x="266" y="336" fill="#3A3B42">/</text>
+  <text x="284" y="336">System Design</text>
+  <text x="446" y="336" fill="#3A3B42">/</text>
+  <text x="464" y="336">Backend APIs</text>
+  <text x="608" y="336" fill="#3A3B42">/</text>
+  <text x="626" y="336">AI Applications</text>
+</g>
+</svg>
