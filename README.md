@@ -91,25 +91,25 @@ Built to explore production backend patterns, this system focuses on throughput,
 
 ### 📈 Engineering Results
 
-| Metric | Value |
-|---------|------:|
-| Logs Processed | **10,000+** |
-| Peak Throughput | **~246 logs/sec** |
-| Architecture | **Queue-Based Processing** |
-| Database | **PostgreSQL** |
-| API Framework | **FastAPI** |
+| Metric | Result |
+|---------|--------|
+| Peak Throughput | **921.43 logs/sec** |
+| Baseline Throughput | **46.63 logs/sec** |
+| Performance Improvement | **~20×** |
+| Processing Model | **Queue-Based + Background Workers** |
+| Batch Processing | **Enabled** |
 | Deployment | **Docker** |
 
 ### ✨ Engineering Highlights
 
-- High-throughput log ingestion pipeline
-- Queue-based architecture with background worker processing
-- Batch insertion for improved database performance
-- Repository Pattern with a clean service-oriented architecture
-- RESTful analytics API with aggregated metrics
-- PostgreSQL with SQLAlchemy ORM
-- Thread-safe processing pipeline
-- Containerized development using Docker
+• Queue-based ingestion pipeline with background workers
+• Batch database writes for higher throughput
+• Shared in-memory buffering architecture
+• Retry handling for failed database writes
+• Cursor-based pagination for analytics endpoints
+• REST analytics API
+• Modular layered backend architecture
+• Containerized deployment with Docker
 
 ### 🛠️ Tech Stack
 
@@ -117,14 +117,16 @@ Built to explore production backend patterns, this system focuses on throughput,
 
 ### 🧠 Key Engineering Decisions
 
-- Separated API request handling from background processing using a shared queue
-- Optimized database writes through configurable batch insertion
-- Used Repository and Service Layer patterns for maintainability
-- Improved ingestion performance through HTTP connection reuse and concurrent request generation
-- Designed the system with scalability and observability in mind
+• Decoupled request handling from database writes using a shared queue
+• Used batch insertion to reduce database transaction overhead
+• Offloaded ingestion processing to a threaded background worker
+• Benchmarked multiple ingestion strategies to quantify performance improvements
+• Exposed analytics through dedicated REST endpoints
 
 ### 🎯 Why I Built It
 
-I built this project to deepen my understanding of production backend systems beyond traditional CRUD applications. It explores concepts such as asynchronous processing, queue-based architectures, performance optimization, and scalable system design while simulating real-world log ingestion workloads.
+This project was built to explore production backend engineering concepts beyond traditional CRUD applications.
+
+The goal was to understand how modern ingestion systems improve throughput through asynchronous processing, batching, concurrency, and pipeline design while exposing operational analytics through clean APIs.
 
 🔗 **[Explore the Repository →](https://github.com/SharifWaqas/log-analytics-backend)**
