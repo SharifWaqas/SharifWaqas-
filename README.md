@@ -52,7 +52,7 @@ AI-powered digital safety platform designed to help older adults recognize onlin
 
 🚧 Active Development
 
-→ 🔗 **[Repository](https://github.com/SharifWaqas-/SafeStep)**
+→ 🔗 **[Repository]((https://github.com/SharifWaqas/safestep))**
 
 
 ### 📊 Log Analytics Engine
@@ -68,4 +68,4 @@ High-throughput backend service for ingesting, processing, and analyzing applica
 - PostgreSQL
 - Docker
 
-→ 🔗 **[Repository](https://github.com/SharifWaqas-/Log-Analytics-Engine)**
+→ 🔗 **[Repository]((https://github.com/SharifWaqas/log-analytics-backend))**
