@@ -15,9 +15,9 @@ I'm Sharif Waqas, a Computer Science & Mathematics student focused on backend en
 
 ## About
 
-I enjoy building production-ready backend systems with a focus on scalability, maintainability, and thoughtful architecture.
+I enjoy building software that solves practical problems.
 
-Recently I've been exploring authentication systems, background workers, distributed processing, AI-powered applications, and high-throughput backend services through hands-on projects.
+Whether it's designing authentication systems, processing thousands of log events, or building AI-powered applications, I'm most interested in creating systems that remain simple, reliable, and maintainable as they grow.
 
 ---
 
