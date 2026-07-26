@@ -30,4 +30,42 @@ Whether it's designing authentication systems, processing thousands of log event
 
 > Build for maintainability.
 
-> Learn continuously by building.---
+> Learn continuously by building.
+
+## 🚀 Featured Systems
+Production-ready systems focused on backend engineering, distributed architecture, and AI-powered applications.
+
+### 🛡️ SafeStep
+
+AI-powered digital safety platform designed to help older adults recognize online scams, understand suspicious messages, and navigate the digital world safely.
+
+**Highlights**
+
+- AI-powered screenshot analysis
+- Authentication & session management
+- Secure file uploads
+- PostgreSQL
+- FastAPI
+- OpenAI Vision
+
+**Status**
+
+🚧 Active Development
+
+→ Repository
+
+
+### 📊 Log Analytics Engine
+
+High-throughput backend service for ingesting, processing, and analyzing application logs with asynchronous workers and batch processing.
+
+**Highlights**
+
+- 10,000+ logs processed
+- 246 logs/sec throughput
+- Background worker architecture
+- Repository Pattern
+- PostgreSQL
+- Docker
+
+→ Repository
