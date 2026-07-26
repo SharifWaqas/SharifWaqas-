@@ -4,15 +4,12 @@
 
 <br>
 
+
 # Building software that scales.
 
 Backend systems, distributed architecture, and AI-powered applications.
 
-Currently building production-ready systems while pursuing Computer Science & Mathematics at the University of Southern Mississippi.# Building software that scales.
-
-Backend systems, distributed architecture, and AI-powered applications.
-
-Currently building production-ready systems while pursuing Computer Science & Mathematics at the University of Southern Mississippi.
+I'm Sharif Waqas, a backend-focused software engineer building production-ready systems while studying Computer Science & Mathematics at the University of Southern Mississippi.
 
 ## About
 
