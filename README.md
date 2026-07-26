@@ -23,7 +23,7 @@ Whether it's designing authentication systems, processing thousands of log event
 
 ## Engineering Philosophy
 
-> Reliability before cleverness.
+> **Reliability before cleverness.**
 
 > Simple systems scale.
 
