@@ -10,8 +10,7 @@
 
 Focused on backend engineering, distributed systems, and AI-powered applications.
 
-I'm Sharif Waqas, a backend-focused software engineer building production-ready systems while studying Computer Science & Mathematics at the University of Southern Mississippi.
-
+I'm Sharif Waqas, a Computer Science & Mathematics student focused on backend engineering, distributed systems, and AI-powered applications.
 ---
 
 ## About
