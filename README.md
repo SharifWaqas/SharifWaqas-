@@ -150,7 +150,6 @@ https://github.com/SharifWaqas/log-analytics-backend
 ### Languages
 
 `Python`
-`Java`
 `C++`
 `SQL`
 
