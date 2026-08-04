@@ -63,9 +63,7 @@ Instead of simply labeling content as safe or dangerous, SafeStep explains **why
 ### Project Architecture
 
 <p align="center">
-
-![](assets/architecture.png)
-
+  <img src="./assets/architecture.png" width="45%" alt="SafeStep Architecture">
 </p>
 
 ### Why I Built It
