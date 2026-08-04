@@ -81,7 +81,7 @@ https://github.com/SharifWaqas/safestep
 ## 📊 Log Analytics Engine
 
 <p align="center">
-<img src="./assets/log-engine.png" width="100%">
+  <img src="./assets/log-engine.png" width="55%" alt="Log Analytics Engine">
 </p>
 
 A production-style backend designed to ingest, process, and analyze high volumes of application logs using queue-based processing and background workers.
