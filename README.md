@@ -32,9 +32,7 @@ Currently preparing for **Summer 2027 Software Engineering internships** while b
 
 ## 🛡️ SafeStep
 
-<p align="center">
-<img src="./assets/safestep.png" width="100%">
-</p>
+![](assets/safestep.png)
 
 An AI-powered digital safety platform that helps older adults understand suspicious screenshots, emails, text messages, and websites.
 
