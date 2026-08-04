@@ -1,132 +1,214 @@
 <p align="center">
-  <img src="./assets/Banner.svg" width="100%" />
+  <img src="./assets/Banner.svg" width="100%" alt="Banner"/>
 </p>
 
+<h1 align="center">
+Hi, I'm Sharif Waqas 👋
+</h1>
+
+<p align="center">
+Computer Science & Mathematics @ University of Southern Mississippi
 <br>
+Backend Engineering • Distributed Systems • AI Applications
+</p>
 
+<p align="center">
+Building reliable backend systems that prioritize performance, scalability, and maintainability.
+</p>
 
+---
 
-# Building software that scales.
+# About
 
-Focused on backend engineering, distributed systems, and AI-powered applications.
+I'm a Computer Science & Mathematics student passionate about backend engineering and building software that solves real-world problems.
 
-I'm Sharif Waqas, a Computer Science & Mathematics student building production-ready backend systems and AI-powered applications.
+I enjoy designing systems that remain simple, reliable, and maintainable as they grow. Most of my work focuses on backend architecture, distributed systems, API development, databases, and AI-powered applications.
 
-## About
+Currently preparing for **Summer 2027 Software Engineering internships** while building production-style backend projects.
 
-I enjoy building software that solves practical problems.
+---
 
-Whether it's designing authentication systems, processing thousands of log events, or building AI-powered applications, I'm most interested in creating systems that remain simple, reliable, and maintainable as they grow.
-
-
-
-## Engineering Philosophy
-
-> **Reliability before cleverness.**
-
-> Simple systems scale.
-
-> Measure before optimizing.
-
-> Build for maintainability.
-
-> Learn continuously by building.
-
-## 🚀 Featured Systems
-Production-ready systems focused on backend engineering, distributed architecture, and AI-powered applications.
+# Featured Projects
 
 ## 🛡️ SafeStep
 
-> AI-powered digital safety platform designed to help older adults recognize online scams, understand suspicious content, and confidently navigate the digital world.
+<p align="center">
+<img src="./assets/safestep.png" width="100%">
+</p>
 
-SafeStep combines modern AI with accessible design to analyze screenshots, emails, text messages, and websites, providing clear explanations, risk assessments, and actionable guidance instead of confusing technical jargon.
+An AI-powered digital safety platform that helps older adults understand suspicious screenshots, emails, text messages, and websites.
 
-### 🚧 Project Status
+Instead of simply labeling content as safe or dangerous, SafeStep explains **why** something appears suspicious, providing clear guidance while improving digital literacy.
 
-**Overall Progress**
-
-```
-████████░░ 80%
-```
-
-| Component | Progress |
-|-----------|----------|
-| Backend Architecture | ██████████ 100% |
-| Authentication & Sessions | ██████████ 100% |
-| Database Design | ██████████ 100% |
-| File Upload Service | ██████████ 100% |
-| Repository & Service Layer | ██████████ 100% |
-| AI Analysis Engine | ███████░░░ 70% |
-| Frontend | ████░░░░░░ 40% |
-| Deployment | ██░░░░░░░░ 20% |
-| Testing | ███░░░░░░░ 30% |
-
-### ✨ Engineering Highlights
+### Highlights
 
 - AI-powered screenshot analysis
-- JWT authentication with secure refresh token sessions
-- Secure file upload and storage pipeline
-- Modular Repository & Service Layer architecture
+- JWT authentication with secure refresh sessions
+- Repository & Service Layer architecture
+- Secure file upload pipeline
 - PostgreSQL with SQLAlchemy ORM
 - OpenAI Vision integration
-- Risk scoring and personalized guidance generation
-- Accessibility-focused design for older adults
+- Risk scoring & personalized guidance
+- Accessibility-first design
 
-### 🛠️ Tech Stack
+### Tech Stack
 
-`Python` • `FastAPI` • `PostgreSQL` • `SQLAlchemy` • `Docker` • `OpenAI API`
+`Python`
+`FastAPI`
+`PostgreSQL`
+`SQLAlchemy`
+`Docker`
+`OpenAI API`
 
-### 🎯 Why I Built It
+### Project Architecture
 
-SafeStep was inspired by the growing number of online scams targeting older adults. Rather than simply detecting scams, the platform focuses on helping users understand **why** something is suspicious, improving digital literacy while providing reassurance and practical guidance.
+<p align="center">
+<img src="./assets/architecture.png" width="100%">
+</p>
 
-🔗 **[Explore the Repository →](https://github.com/SharifWaqas/safestep)**
+### Why I Built It
 
+SafeStep was inspired by the increasing number of online scams targeting older adults.
+
+Rather than simply detecting scams, the platform focuses on helping users understand suspicious content, reduce panic, and confidently make safer decisions online.
+
+➡️ **Repository**
+
+https://github.com/SharifWaqas/safestep
+
+---
 
 ## 📊 Log Analytics Engine
 
-> High-throughput backend system designed to ingest, process, and analyze large volumes of application logs using asynchronous workers, batch processing, and a scalable service-oriented architecture.
+<p align="center">
+<img src="./assets/log-engine.png" width="100%">
+</p>
 
-Built to explore production backend patterns, this system focuses on throughput, reliability, and maintainability. Rather than simply storing logs, it demonstrates how modern backend services can efficiently process high-volume data while exposing analytics through clean APIs.
+A production-style backend designed to ingest, process, and analyze high volumes of application logs using queue-based processing and background workers.
 
-### 📈 Engineering Results
+The project explores backend architecture patterns commonly used in modern distributed systems.
+
+### Engineering Results
 
 | Metric | Result |
 |---------|--------|
-| Peak Throughput | **921.43 logs/sec** |
-| Baseline Throughput | **46.63 logs/sec** |
-| Performance Improvement | **~20×** |
-| Processing Model | **Queue-Based + Background Workers** |
-| Batch Processing | **Enabled** |
-| Deployment | **Docker** |
+| 🚀 Peak Throughput | **921.43 logs/sec** |
+| ⚡ Performance Improvement | **~20×** |
+| 📦 Deployment | Docker |
+| 🧵 Processing | Queue + Background Workers |
+| 🗄️ Database | PostgreSQL |
+| 🌐 API | REST |
 
-### ✨ Engineering Highlights
+### Highlights
 
-• Queue-based ingestion pipeline with background workers
-• Batch database writes for higher throughput
-• Shared in-memory buffering architecture
-• Retry handling for failed database writes
-• Cursor-based pagination for analytics endpoints
-• REST analytics API
-• Modular layered backend architecture
-• Containerized deployment with Docker
+- Queue-based ingestion pipeline
+- Background worker processing
+- Batch database writes
+- Retry handling
+- Cursor pagination
+- REST Analytics API
+- Layered backend architecture
+- Dockerized deployment
 
-### 🛠️ Tech Stack
+### Tech Stack
 
-`Python` • `FastAPI` • `PostgreSQL` • `SQLAlchemy` • `Docker` • `Threading`
+`Python`
+`FastAPI`
+`PostgreSQL`
+`SQLAlchemy`
+`Docker`
+`Threading`
 
-### 🧠 Key Engineering Decisions
+### Engineering Decisions
 
-• Decoupled request handling from database writes using a shared queue
-• Used batch insertion to reduce database transaction overhead
-• Offloaded ingestion processing to a threaded background worker
-• Benchmarked multiple ingestion strategies to quantify performance improvements
-• Exposed analytics through dedicated REST endpoints
+Instead of writing directly to PostgreSQL on every request, incoming logs are first placed into a shared queue where background workers process them in batches.
 
-### 🎯 Why I Built It
+This architecture significantly reduced database overhead and improved throughput by nearly **20×** compared to the original implementation.
 
-This project was built to explore production backend engineering concepts beyond traditional CRUD applications.
+➡️ **Repository**
 
-The goal was to understand how modern ingestion systems improve throughput through asynchronous processing, batching, concurrency, and pipeline design while exposing operational analytics through clean APIs.
+https://github.com/SharifWaqas/log-analytics-backend
 
-🔗 **[Explore the Repository →](https://github.com/SharifWaqas/log-analytics-backend)**
+---
+
+# Engineering Philosophy
+
+> Reliability before cleverness.
+
+> Build simple systems that scale.
+
+> Measure before optimizing.
+
+> Design for maintainability.
+
+> Learn by building.
+
+---
+
+# Technologies
+
+### Languages
+
+`Python`
+`Java`
+`C++`
+`SQL`
+
+### Backend
+
+`FastAPI`
+`REST APIs`
+`SQLAlchemy`
+`JWT`
+`Authentication`
+`Repository Pattern`
+`Service Layer`
+
+### Databases
+
+`PostgreSQL`
+
+### AI
+
+`OpenAI API`
+`Prompt Engineering`
+`Vision Models`
+
+### Infrastructure
+
+`Docker`
+`Git`
+`GitHub`
+
+---
+
+# Currently Learning
+
+- Distributed Systems
+- System Design
+- Backend Scalability
+- AI Infrastructure
+- Performance Optimization
+
+---
+
+# Connect
+
+📧 Email
+
+**shaarif.1031@gmail.com**
+
+💼 LinkedIn
+
+**www.linkedin.com/in/muhammad-sharif-77494139b**
+
+---
+
+<p align="center">
+
+Thanks for visiting!
+
+Always building.
+Always learning.
+
+</p>
